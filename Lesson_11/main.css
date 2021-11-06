@@ -1,0 +1,101 @@
+.flag {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid blue;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: red;
+  }
+
+    .logo {
+        width: 400px;
+        height:  400px;
+        background:  #ac3694;
+        margin:  auto;
+        position: absolute;
+        top:  140px;
+        right:  0;
+        border-radius:  100px;
+        background: linear-gradient(90deg, rgba(36,0,29,1) 26%, rgba(55,17,25,1) 39%, rgba(69,37,78,1) 63%, rgba(95,52,95,1) 78%, rgba(85,62,107,1) 88%);
+    }
+
+    .logo .content {
+        width: 300px;
+        height:  300px;
+        background:  transparent;
+        border:  28px solid white;
+        border-radius:  100px;
+        position: absolute;
+        top:  0;
+        bottom:  0;
+        left:  0;
+        margin:  auto;
+        right:  0;
+    }
+
+    .logo .content .circle {
+        width: 150px;
+        height:  150px;
+        box-sizing: border-box;
+        background:  transparent;
+        border:  28px solid white;
+        border-radius:  100%;
+        position: absolute;
+        top:  0;
+        bottom:  0;
+        left:  0;
+        margin:  auto;
+        right:  0;
+    }
+
+    .logo .content .circle:after {
+        width: 40px;
+        height:  40px;
+        background:  white;
+        border-radius:  100%;
+        position: absolute;
+        bottom:  0;
+        left:  0;
+        margin:  auto;
+        right:  0;
+        content: '';
+        left: 106px;
+        top: -161px;
+    }
+
+.flagFrance{
+    background-color:#3d3d3d ;
+    width: 420px;
+    height: 400px;
+    margin: auto;
+}
+
+,first{
+    background-color: blue;
+    width: 140px;
+    height:100%;
+    float: left;
+}
+
+.second{
+    background-color: #fff;
+    width: 140px;
+    height:100%;
+    float: center;
+}
+
+.third{
+    background-color: red;
+    width: 140px;
+    height:100%;
+    float: right;
+}
